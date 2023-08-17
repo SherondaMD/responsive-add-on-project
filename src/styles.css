@@ -55,6 +55,10 @@ body {
   text-decoration: none;
 }
 
+.label {
+  text-align: center;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -73,6 +77,8 @@ section.secondary {
 .img-responsive-card {
   width: 100%;
   display: block;
+  height: 400px;
+  object-fit: cover;
 }
 
 .video {
@@ -251,5 +257,16 @@ footer ul {
 
   section {
     padding: 30px;
+  }
+
+  .card-body h4,
+  h5,
+  p,
+  em {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
   }
 }
