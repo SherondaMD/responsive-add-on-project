@@ -72,6 +72,9 @@ section.secondary {
 .img-responsive {
   width: 100%;
   display: block;
+  border-width: 5px;
+  border-style:groove;
+  border-color: black;
 }
 
 .img-responsive-card {
@@ -79,6 +82,9 @@ section.secondary {
   display: block;
   height: 400px;
   object-fit: cover;
+    border-width: 5px;
+  border-style:groove;
+  border-color: black;
 }
 
 .video {
