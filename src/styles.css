@@ -59,6 +59,7 @@ body {
   text-align: center;
 }
 
+
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -73,7 +74,7 @@ section.secondary {
   width: 100%;
   display: block;
   border-width: 5px;
-  border-style:groove;
+  border-style: groove;
   border-color: black;
 }
 
@@ -82,8 +83,8 @@ section.secondary {
   display: block;
   height: 400px;
   object-fit: cover;
-    border-width: 5px;
-  border-style:groove;
+  border-width: 5px;
+  border-style: groove;
   border-color: black;
 }
 
